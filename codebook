@@ -1,0 +1,25 @@
+This codebook contains the description for the main variables defined in the script file "run_analysis.R"
+Variables description is listed in the order variables are defined in the script
+
+path_main           path to the main folder containing all files
+path_train          path to the "train" dataset folder
+path_test           path to the "test" dataset folder
+features            test variables from "features.txt" file
+mean_ind            indices for mean() tests
+std_ind             indices for std() tests
+freq_ind            indices for meanFreq() tests (defined to be removed from mean_ind)
+xtrain              values from "X_train.txt" file
+ytrain              values from "y_train.txt" file
+subtrain            values from "subject_train.txt" file
+xtest               values from "X_test.txt" file
+ytest               values from "y_test.txt" file
+subtest             values from "subject_test.txt" file
+tests               dataset created by merging xtrain and xtest values
+tests_mean_std      mean and standard deviation test measurements extracted from "tests" dataset
+act_labels          data frame containing the activity labels (1-6) for all test measurements
+subjects            data frame containing the subjects (1-30) for all test measurements
+act_desc            description for activity labels, extracted from "activity_labels.txt" file
+activity            data frame containing the activity description for all test measurements
+dataset             main dataset containing the subjects, activity labels & their description, and mean and standard deviation test values
+dataset_grouped     dataset containing the grouping of the original dataset by subject and by activity
+dataset_mean        dataset containing the average of all mean and std variables for each subject and for each activity
