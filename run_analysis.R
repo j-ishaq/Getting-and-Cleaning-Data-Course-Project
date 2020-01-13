@@ -2,9 +2,9 @@ library(dplyr)
 
 # rm(list=ls()) # remove all objects from the working environment
 
-path_main <- "" # Path to the main folder containing all files
-path_train <- "" # Path to "train" dataset folder
-path_test <- "" # Path to "test" dataset folder
+path_main <- "" # Provide the path to the main folder containing all files
+path_train <- "" # Provide the path to "train" dataset folder
+path_test <- "" # Provide the path to "test" dataset folder
 
 setwd(path_main)
 
